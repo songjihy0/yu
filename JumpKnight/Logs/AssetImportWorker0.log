@@ -1,0 +1,532 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.17f1c1 (a01dafa986ec) revision 10493359'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16087 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unityProject/JumpKnight
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65285
+Successfully changed project path to: D:/unityProject/JumpKnight
+D:/unityProject/JumpKnight
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36572] Host "[IP] 192.168.8.118 [Port] 0 [Flags] 2 [Guid] 2026884923 [EditorId] 2026884923 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36572] Host "[IP] 192.168.8.118 [Port] 0 [Flags] 2 [Guid] 2026884923 [EditorId] 2026884923 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 15.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unityProject/JumpKnight/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24a0)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011071 seconds.
+- Loaded All Assemblies, in  0.299 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.213 seconds
+Domain Reload Profiling: 510ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (214ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (170ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.609 seconds
+Refreshing native plugins compatible for Editor in 4.64 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.639 seconds
+Domain Reload Profiling: 1243ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (503ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4018 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.4 KB). Loaded Objects now: 4473.
+Memory consumption went from 145.4 MB to 145.1 MB.
+Total: 4.392200 ms (FindLiveObjects: 0.344300 ms CreateObjectMapping: 0.089800 ms MarkObjects: 3.699000 ms  DeleteObjects: 0.257600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 266755.684718 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(225e807329b82d449b56d0ee5c79ea2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(225e807329b82d449b56d0ee5c79ea2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382849d6a876c2bdad880c4a03f5cf9c') in 0.002128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.223505 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.592803 seconds.
+  path: Assets/Asset Art
+  artifactKey: Guid(ed82de9587ca2d74e90f41aea09fe0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Art using Guid(ed82de9587ca2d74e90f41aea09fe0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd03a102d0811a6591ee28944199043') in 0.000963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 130.388502 seconds.
+  path: Assets/Cave Platformer Tileset
+  artifactKey: Guid(cdd5d2635d83dfd4f8a5404a876510e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset using Guid(cdd5d2635d83dfd4f8a5404a876510e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9fe14898b44a0ba36fbbbfcf0e58d1') in 0.000638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.369158 seconds.
+  path: Assets/Cave Platformer Tileset/Example stage layers
+  artifactKey: Guid(704618268ecbe8f4ea10fa092599514e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Example stage layers using Guid(704618268ecbe8f4ea10fa092599514e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0761a725f507c945db7019bcf370448') in 0.000596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073207 seconds.
+  path: Assets/Cave Platformer Tileset/Example stage layers/bg_01_sky.png
+  artifactKey: Guid(33fa31f61a034c649887c0d1209ce098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Example stage layers/bg_01_sky.png using Guid(33fa31f61a034c649887c0d1209ce098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcf0186936dc715c6bb07528b80b253') in 0.091170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Cave Platformer Tileset/Example stage layers/bg_04_dungeon_g.png
+  artifactKey: Guid(d9ff31821b2fe3d44bc3644f50fc5e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Example stage layers/bg_04_dungeon_g.png using Guid(d9ff31821b2fe3d44bc3644f50fc5e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3ebd306722ea9f03143da3df58e42f') in 0.026626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cave Platformer Tileset/Example stage layers/bg_07_bgobjects.png
+  artifactKey: Guid(ab9066f70fa24c941ab2a9ffee139e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Example stage layers/bg_07_bgobjects.png using Guid(ab9066f70fa24c941ab2a9ffee139e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200184d5a8c1c4854e8ccab10972ef55') in 0.025944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cave Platformer Tileset/Example stage layers/bg_07_waterlayer.png
+  artifactKey: Guid(8d0c0dfbb8c61c54f9738e0452cb9764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Example stage layers/bg_07_waterlayer.png using Guid(8d0c0dfbb8c61c54f9738e0452cb9764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3f54d9761ac3bebce988025c0864e1') in 0.030814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cave Platformer Tileset/Example stage layers/bg_05_cave_g.png
+  artifactKey: Guid(a1e82c71973d5a74895e7cb0e7bc1895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Example stage layers/bg_05_cave_g.png using Guid(a1e82c71973d5a74895e7cb0e7bc1895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5758a379f5c7964e6b5c5ca5511d9731') in 0.031575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cave Platformer Tileset/Example stage layers/bg_03_hills_b.png
+  artifactKey: Guid(51c712eb1a3150f498493b1e903a1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Example stage layers/bg_03_hills_b.png using Guid(51c712eb1a3150f498493b1e903a1196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea2adda7d4d9e26e44a436acf9941f1') in 0.024309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Cave Platformer Tileset/Example stage layers/bg_03_hills_g.png
+  artifactKey: Guid(b1640e03692ffd34eae1cdbd1427de7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Example stage layers/bg_03_hills_g.png using Guid(b1640e03692ffd34eae1cdbd1427de7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890af2981743fb8203ae550aba283b96') in 0.032493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cave Platformer Tileset/Example stage layers/bg_06_caveinside_g.png
+  artifactKey: Guid(185c02e2cb4f5ee42a3ab21794862681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Example stage layers/bg_06_caveinside_g.png using Guid(185c02e2cb4f5ee42a3ab21794862681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fa710ad4ce9b72c8f35111f75f14b7') in 0.025858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.439326 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets
+  artifactKey: Guid(c65d2f203290a084abfbccc857872200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets using Guid(c65d2f203290a084abfbccc857872200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14ea047da5607708860ac34975af879') in 0.000801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.782014 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x16.png
+  artifactKey: Guid(1291332cf12f072409f17b4e2f19c4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x16.png using Guid(1291332cf12f072409f17b4e2f19c4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c445fc53b391e285ac70ad2c08f39e') in 0.082808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x32.png
+  artifactKey: Guid(a942e742796c2684d891a7181f310bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x32.png using Guid(a942e742796c2684d891a7181f310bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3173be02d5d11f2ee785503d3b9e0ff') in 0.043796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_16x32.png
+  artifactKey: Guid(45d1fa6ee4f9d934883e0e17e7ece524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_16x32.png using Guid(45d1fa6ee4f9d934883e0e17e7ece524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd452feeedd7a7b77e10adea64bc171ea') in 0.096091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_16x16.png
+  artifactKey: Guid(c0c817d08afb9a64098b165ebb2b71cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_16x16.png using Guid(c0c817d08afb9a64098b165ebb2b71cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57383c1584448da5ab4f54b1ed3a8867') in 0.066201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/parallax_cave_holes_greenish.png
+  artifactKey: Guid(6aac80ca10b590b40a968217d5092118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/parallax_cave_holes_greenish.png using Guid(6aac80ca10b590b40a968217d5092118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a446d2a7949ef1960f2bd9f9a5325de7') in 0.042706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/parallax_cave_tops.png
+  artifactKey: Guid(46d29249821e22746be849e384a14f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/parallax_cave_tops.png using Guid(46d29249821e22746be849e384a14f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6fdc2628878069d6746dbda4eed0c5') in 0.029807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_other.png
+  artifactKey: Guid(9b722ddbaa4b73440a0f9c11af2cbe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_other.png using Guid(9b722ddbaa4b73440a0f9c11af2cbe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34bafcedc45ccc8ceb93df09f62aa9c') in 0.025040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-lightbrown.png
+  artifactKey: Guid(b5ee228e5acd4cd4ba5534dd912be2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-lightbrown.png using Guid(b5ee228e5acd4cd4ba5534dd912be2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429e6e732df805ee609f1815521462c0') in 0.130978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/objects_misc_animated.png
+  artifactKey: Guid(ffc5a3f5b6234044e87e556883d205d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/objects_misc_animated.png using Guid(ffc5a3f5b6234044e87e556883d205d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45826e6312fdb5d85a361a3d9fe342e') in 0.103400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/parallax_bg_cave_blueish.png
+  artifactKey: Guid(5446fb203ea05cf439a2a482dbe9bc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/parallax_bg_cave_blueish.png using Guid(5446fb203ea05cf439a2a482dbe9bc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ca4d80e037bbbe3733ab0982188cf8') in 0.031128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_32x32.png
+  artifactKey: Guid(325eba7eb0eae3d49a8dd42758ec7336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_32x32.png using Guid(325eba7eb0eae3d49a8dd42758ec7336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f515e545fc19a723d882ee3dcb9dcf11') in 0.031136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-white.png
+  artifactKey: Guid(ae9601efa341c8e46881ed773ca69bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-white.png using Guid(ae9601efa341c8e46881ed773ca69bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4548e35f9736958f8c1e7642ea896c10') in 0.131526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/objects_misc.png
+  artifactKey: Guid(a960d45a01b175649839aa6c4d61341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/objects_misc.png using Guid(a960d45a01b175649839aa6c4d61341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12df20aa3b54f407b235a285c37525d9') in 0.044646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x16.png
+  artifactKey: Guid(b2d15ef97656d514ab499c764e5a4fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x16.png using Guid(b2d15ef97656d514ab499c764e5a4fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c273f7790d35a822d948508d8de245b1') in 0.043152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-grey.png
+  artifactKey: Guid(729fe4629769c0040b3695e91e73f791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-grey.png using Guid(729fe4629769c0040b3695e91e73f791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561e88faa1fd1563a979b4e875ce96a2') in 0.141617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 5.609695 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files
+  artifactKey: Guid(a4ea6df400fee2648b223ed6fbe8bfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files using Guid(a4ea6df400fee2648b223ed6fbe8bfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c993dd62cb1322d584dc7a5fd75ad824') in 0.000981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.291849 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster
+  artifactKey: Guid(338905bb347419b4ba595d996d169e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster using Guid(338905bb347419b4ba595d996d169e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183902fe00ab59255d5659a9edaaed9f') in 0.000931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.919346 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-2.png
+  artifactKey: Guid(37dc7ea1bfcf9ad4a881f1eb8f83e5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-2.png using Guid(37dc7ea1bfcf9ad4a881f1eb8f83e5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871b27104eb688ad6cc812fb7dbda3d1') in 0.030501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-14.png
+  artifactKey: Guid(bdd242558c280284b8c514d0d2df30ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-14.png using Guid(bdd242558c280284b8c514d0d2df30ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a677fc52638cfcc28c4f2e35c0f37b2') in 0.014837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-5.png
+  artifactKey: Guid(ef615c91ba152614d8a35a393c752167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-5.png using Guid(ef615c91ba152614d8a35a393c752167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e45f3c6691f2af1bfc31e181acc445') in 0.023896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-9.png
+  artifactKey: Guid(dcb309648bcb005469dc541beebe425f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-9.png using Guid(dcb309648bcb005469dc541beebe425f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625f794a925dfcb9cccd68d310669a66') in 0.024015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-16.png
+  artifactKey: Guid(770d8a056ba27d847ab6b353f466ab85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-16.png using Guid(770d8a056ba27d847ab6b353f466ab85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f8e27241b7d4b6bc5aef9f75431789') in 0.015624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-19.png
+  artifactKey: Guid(c6e0a52a52e4b6b4081e004f104d9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-19.png using Guid(c6e0a52a52e4b6b4081e004f104d9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764ce148d6bbb5242553263c3d203ba3') in 0.033648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-21.png
+  artifactKey: Guid(04bc6ea9bf349064ea8628c22e7e148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-21.png using Guid(04bc6ea9bf349064ea8628c22e7e148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789e18edb805616cfa851ca9da76b984') in 0.024546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.085976 seconds.
+  path: Assets/Cave Platformer Tileset/Monster sprite sheets/scorpion-gold-sheet-x1.png
+  artifactKey: Guid(82290d57413dd934c90a22cd4edb892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Monster sprite sheets/scorpion-gold-sheet-x1.png using Guid(82290d57413dd934c90a22cd4edb892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54fd95c756efce1304d4e6baecbf319') in 0.175985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 5.697990 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_03.png
+  artifactKey: Guid(4584ef5d24d3d3048ba52ce046ee1980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_03.png using Guid(4584ef5d24d3d3048ba52ce046ee1980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f846af2f51649b23ea618aa9c3c77afb') in 0.024290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_13.png
+  artifactKey: Guid(55f5eb4841fac064c8ce59722e49204e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_13.png using Guid(55f5eb4841fac064c8ce59722e49204e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8290d1ebf07d5c1167a6239cd7ebc3c9') in 0.021888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_17.png
+  artifactKey: Guid(230eb9d18183b7047aa2a31a670896b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_17.png using Guid(230eb9d18183b7047aa2a31a670896b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fe37478421d68e9a12c78425b718f0') in 0.027977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_08.png
+  artifactKey: Guid(5dc2519b7e4f8cd488e61ba792f1d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_08.png using Guid(5dc2519b7e4f8cd488e61ba792f1d9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8a7d3f3a2ef798b5568841ade7bf20') in 0.030497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

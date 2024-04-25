@@ -1,0 +1,2138 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.17f1c1 (a01dafa986ec) revision 10493359'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16087 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/unityProject/JumpKnight
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+65285
+Successfully changed project path to: D:/unityProject/JumpKnight
+D:/unityProject/JumpKnight
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [50044] Host "[IP] 192.168.8.118 [Port] 0 [Flags] 2 [Guid] 3457173290 [EditorId] 3457173290 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [50044] Host "[IP] 192.168.8.118 [Port] 0 [Flags] 2 [Guid] 3457173290 [EditorId] 3457173290 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 1132.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unityProject/JumpKnight/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24a0)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010080 seconds.
+- Loaded All Assemblies, in  0.283 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.217 seconds
+Domain Reload Profiling: 497ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (83ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (218ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (171ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.007 seconds
+Refreshing native plugins compatible for Editor in 4.67 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.631 seconds
+Domain Reload Profiling: 1567ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (736ms)
+		LoadAssemblies (672ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (631ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (513ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4018 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.2 KB). Loaded Objects now: 4473.
+Memory consumption went from 145.3 MB to 145.1 MB.
+Total: 3.496400 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.089400 ms MarkObjects: 2.896100 ms  DeleteObjects: 0.209800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 266923.642064 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black
+  artifactKey: Guid(f90aa40b7453eaa4a95d4ed05a0d50c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black using Guid(f90aa40b7453eaa4a95d4ed05a0d50c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6f56abc472df493ac3df9c4be43048') in 0.002337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.095997 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-0.png
+  artifactKey: Guid(0c4f8302c651f2042a652d2712208738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-0.png using Guid(0c4f8302c651f2042a652d2712208738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfd4a768b5a7acdea897263f71a5e49') in 0.104683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-23.png
+  artifactKey: Guid(8673c0f30115ce046aaa9d42639d45fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-23.png using Guid(8673c0f30115ce046aaa9d42639d45fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638bb24bccdc1d633f74c13824ed5735') in 0.027567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-24.png
+  artifactKey: Guid(fbaa6dfbe4c4756438f72bd3f0c28c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-24.png using Guid(fbaa6dfbe4c4756438f72bd3f0c28c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c723a7ed7597f286acbe6e126cca6456') in 0.027192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-20.png
+  artifactKey: Guid(5afeda3e60a6bcc4c882733424f98847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Monster/scorpion-black/scorpion-black-20.png using Guid(5afeda3e60a6bcc4c882733424f98847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811cc56f35437b16569466903b01a79d') in 0.024297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.036528 seconds.
+  path: Assets/Cave Platformer Tileset/Monster sprite sheets
+  artifactKey: Guid(6ef767095095f8848a3bd23030d1c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Monster sprite sheets using Guid(6ef767095095f8848a3bd23030d1c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e67a6f3097a5c0f2b1b0c69ea293b2') in 0.000653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032001 seconds.
+  path: Assets/Cave Platformer Tileset/Monster sprite sheets/scorpion-black-sheet-x1.png
+  artifactKey: Guid(e58efa932c227574b8a7132fa62a56d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Monster sprite sheets/scorpion-black-sheet-x1.png using Guid(e58efa932c227574b8a7132fa62a56d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88063e79bdb0c82786f02424b5e0e9b9') in 0.179649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 4.479599 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset
+  artifactKey: Guid(fed47f07d33793f439bf6efc8baefda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset using Guid(fed47f07d33793f439bf6efc8baefda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe1301861beb850aeca56b231114fc7') in 0.000620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.128669 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16
+  artifactKey: Guid(5ebf7b2d2953b3b44bbfe2b4a155c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16 using Guid(5ebf7b2d2953b3b44bbfe2b4a155c7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fb32dea95447947e9db896d7599b4c') in 0.000585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.083925 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_01.png
+  artifactKey: Guid(0a63b1889307ad043936dddac3b8a783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_01.png using Guid(0a63b1889307ad043936dddac3b8a783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9590564b5b7a81433964e0e8233c09f5') in 0.025386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_15.png
+  artifactKey: Guid(27843cd187f0ded449f912b1414e47c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_15.png using Guid(27843cd187f0ded449f912b1414e47c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6a640da3ec9b9de7cd59610b605207') in 0.025744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_16.png
+  artifactKey: Guid(2fd226faf6eec8f41addc7cfb3953648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_16.png using Guid(2fd226faf6eec8f41addc7cfb3953648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899d584a8bcfe5c4ddcfe5337502958e') in 0.031177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_06.png
+  artifactKey: Guid(a43f823be19907d42ba2330610bce662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x16/bg_cave_blueish_16x16_tile_06.png using Guid(a43f823be19907d42ba2330610bce662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659aa302dfc5f8b24683cf014535fedd') in 0.028644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.629863 seconds.
+  path: Assets/Cave Platformer Tileset/Individual PNG files/Tileset/watertile.png
+  artifactKey: Guid(43c1cea86b9dd2f4b8d539ed3bba4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Individual PNG files/Tileset/watertile.png using Guid(43c1cea86b9dd2f4b8d539ed3bba4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537a82146d159092749cabe98fe37b16') in 0.021618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.657583 seconds.
+  path: Assets/Cave Platformer Tileset/Enviroment sprite sheets/water_animated.png
+  artifactKey: Guid(73398d231c2af4d46bd9cf4c231f519e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/Enviroment sprite sheets/water_animated.png using Guid(73398d231c2af4d46bd9cf4c231f519e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e0a7800460eb3152f9cc0795a2e95e') in 0.029601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 36.123644 seconds.
+  path: Assets/Cave Platformer Tileset/readme.txt
+  artifactKey: Guid(022cc24178307a941a98d1fa12ee56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave Platformer Tileset/readme.txt using Guid(022cc24178307a941a98d1fa12ee56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d3a573fa2a2983c89844742be4fbbb') in 0.002014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.439 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.202 seconds
+Domain Reload Profiling: 1635ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1202ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 6.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (243.2 KB). Loaded Objects now: 4493.
+Memory consumption went from 150.4 MB to 150.2 MB.
+Total: 4.029600 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.132500 ms MarkObjects: 3.441400 ms  DeleteObjects: 0.186500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 181.228619 seconds.
+  path: Assets/Asset Art/Dungeon_Tileset.png
+  artifactKey: Guid(e0d8393b00a772b4697d09104a191e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Art/Dungeon_Tileset.png using Guid(e0d8393b00a772b4697d09104a191e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90adff4ec321fbd757d0418d7c0f48c3') in 0.074101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.657951 seconds.
+  path: Assets/Asset Art/Textures-16.png
+  artifactKey: Guid(726bc1c0dd09a4d4fb0fca679832b634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Art/Textures-16.png using Guid(726bc1c0dd09a4d4fb0fca679832b634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf52da2e693ccc92c3c70a492134e29') in 0.025407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 36.916277 seconds.
+  path: Assets/Hero Knight - Pixel Art
+  artifactKey: Guid(ea5a8a4328dffd648aa2fd873376774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art using Guid(ea5a8a4328dffd648aa2fd873376774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7548dc801508c796ff24481cb12c3c7') in 0.000703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.281563 seconds.
+  path: Assets/Hero Knight - Pixel Art/Animations
+  artifactKey: Guid(4d2058f5d413e8a42a0b44987c79c7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Animations using Guid(4d2058f5d413e8a42a0b44987c79c7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192a83317b9287d9ac271a52abdc2543') in 0.000664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.758109 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo
+  artifactKey: Guid(09a0c900cf3b39b4e834bb8110365207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo using Guid(09a0c900cf3b39b4e834bb8110365207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e24b5989a8f10cefb66bb56eb11fee') in 0.000670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097712 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/BlockFlash.prefab
+  artifactKey: Guid(803b96fa8ebd5a749bdf32bd0e553139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/BlockFlash.prefab using Guid(803b96fa8ebd5a749bdf32bd0e553139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc54a93dd1d18a2fd453461cacccbc35') in 0.089920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab
+  artifactKey: Guid(2f7eeaf41636b0f4f8ca52ea6858fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab using Guid(2f7eeaf41636b0f4f8ca52ea6858fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25813eee9d03ad647384326c8acb0dcb') in 0.049085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 201
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab
+  artifactKey: Guid(8b8c8cc6774fb074cb9139cc631b108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab using Guid(8b8c8cc6774fb074cb9139cc631b108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b36682e63d6a4a62931d599960c86ff') in 0.015304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 11.083438 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs
+  artifactKey: Guid(0f5034bc83802944c9bca57c55e08978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs using Guid(0f5034bc83802944c9bca57c55e08978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc51fff0c1858651be0a17474e5b471') in 0.000679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.959112 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs
+  artifactKey: Guid(52753f3b24fd0e84d8e6d8c3155daed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/DestroyEvent_HeroKnight.cs using Guid(52753f3b24fd0e84d8e6d8c3155daed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a1e65b93d5cd6b1025f00d8ec12589') in 0.000556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.505466 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/Demo.unity
+  artifactKey: Guid(f9932cc447c2c0b489f7fe04352db427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/Demo.unity using Guid(f9932cc447c2c0b489f7fe04352db427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8a386859647519ebea32f15f17c414') in 0.000603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.399 seconds
+Refreshing native plugins compatible for Editor in 4.42 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.105 seconds
+Domain Reload Profiling: 1499ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1105ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 6.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.7 KB). Loaded Objects now: 4506.
+Memory consumption went from 152.5 MB to 152.3 MB.
+Total: 3.651600 ms (FindLiveObjects: 0.344000 ms CreateObjectMapping: 0.114200 ms MarkObjects: 2.843200 ms  DeleteObjects: 0.348900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.397 seconds
+Refreshing native plugins compatible for Editor in 4.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.142 seconds
+Domain Reload Profiling: 1534ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1142ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 8.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.8 KB). Loaded Objects now: 4510.
+Memory consumption went from 154.5 MB to 154.2 MB.
+Total: 3.569400 ms (FindLiveObjects: 0.237200 ms CreateObjectMapping: 0.122000 ms MarkObjects: 3.046000 ms  DeleteObjects: 0.162800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.568383 seconds.
+  path: Assets/Hero Knight - Pixel Art/Environment
+  artifactKey: Guid(b486a59b54cc7224c9e1724a1202e532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Environment using Guid(b486a59b54cc7224c9e1724a1202e532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709bef37443b17b107c3932c84de3e53') in 0.002250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079947 seconds.
+  path: Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab
+  artifactKey: Guid(d0a86346e04015245ae6126e465b87c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab using Guid(d0a86346e04015245ae6126e465b87c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039347c501d64cc0736c69fa0d4245bb') in 0.064083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D
+  artifactKey: Guid(9c497a4ce1f356b448c0dd3eca091d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D using Guid(9c497a4ce1f356b448c0dd3eca091d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b235adf3588f32433198d2fb93968d52') in 0.001338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset
+  artifactKey: Guid(16944a65ef007594a9a62996602798ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset using Guid(16944a65ef007594a9a62996602798ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5af985458a9ac5486a2eb1d4982d4dd') in 0.023090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset
+  artifactKey: Guid(932822c3aa72d6245a38fc0e08fe9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset using Guid(932822c3aa72d6245a38fc0e08fe9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae07a6bee05de9bbef717890ccf5b2a9') in 0.012719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 139.928144 seconds.
+  path: Assets/Asset Art/Textures-16.png
+  artifactKey: Guid(726bc1c0dd09a4d4fb0fca679832b634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Art/Textures-16.png using Guid(726bc1c0dd09a4d4fb0fca679832b634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2839e21ea363a4dfb2da8755b9fdf6d7') in 0.023772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 24.276004 seconds.
+  path: Assets/Asset Art/Textures-16.png
+  artifactKey: Guid(726bc1c0dd09a4d4fb0fca679832b634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Art/Textures-16.png using Guid(726bc1c0dd09a4d4fb0fca679832b634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dd79b46d9c9204fb3a8ae0a898ffea') in 0.774640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 433
+========================================================================
+Received Import Request.
+  Time since last request: 18.429615 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c88ca41efc65579833c7ea0840b9469') in 0.000615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 233.912264 seconds.
+  path: Assets/Tilemap/Map.prefab
+  artifactKey: Guid(70d1a4df381b7eb4e84c8642741b766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Map.prefab using Guid(70d1a4df381b7eb4e84c8642741b766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e837a55b0ad6823a309e128fd3882d5') in 0.017102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 25.116467 seconds.
+  path: Assets/Tilemap/Map.prefab
+  artifactKey: Guid(70d1a4df381b7eb4e84c8642741b766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Map.prefab using Guid(70d1a4df381b7eb4e84c8642741b766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d63f2ed8ad605a146766d9209fb2b85') in 0.185099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 873
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilemap/Textures-16_5.asset
+  artifactKey: Guid(f7189028edbeef94f94194a175378c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_5.asset using Guid(f7189028edbeef94f94194a175378c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f112e7cbc40ed7b0529f2b4a7d20e44f') in 0.017207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tilemap/Textures-16_18.asset
+  artifactKey: Guid(438c31faeeaf2b346a974281f254967b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_18.asset using Guid(438c31faeeaf2b346a974281f254967b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a92e77e0f3a3ca0d199d99fba6cc67') in 0.014263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_15.asset
+  artifactKey: Guid(f8235918f0b92a748828df3dfbbf8be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_15.asset using Guid(f8235918f0b92a748828df3dfbbf8be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e3e1f1b727302f93fc81c9ac1753c9') in 0.013238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_3.asset
+  artifactKey: Guid(6e9dcf8b153158740b4f4a86be8bf4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_3.asset using Guid(6e9dcf8b153158740b4f4a86be8bf4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f6b981a64ddb62c89efa10b9909a47') in 0.016049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_17.asset
+  artifactKey: Guid(00be60572ae718d4e8d5ad7106d17c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_17.asset using Guid(00be60572ae718d4e8d5ad7106d17c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0068d6b50141e020092f676ad8ea2b63') in 0.013927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_13.asset
+  artifactKey: Guid(23467acd03a8f0746bdd68bac120db8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_13.asset using Guid(23467acd03a8f0746bdd68bac120db8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1262f07a5e776856216cd684aac0b604') in 0.014009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_22.asset
+  artifactKey: Guid(8bdfcb24900cef64a9b154ac0ff5ad16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_22.asset using Guid(8bdfcb24900cef64a9b154ac0ff5ad16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000d16ac231c3001642ad7da3d6cef92') in 0.015246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/Textures-16_11.asset
+  artifactKey: Guid(c489f015e1e0ed34d9b4fce953e0172e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_11.asset using Guid(c489f015e1e0ed34d9b4fce953e0172e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6ab4c9097da9cc3acc5a6209c30ad9') in 0.013808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.220100 seconds.
+  path: Assets/Tilemap/Textures-16_24.asset
+  artifactKey: Guid(8062d12e480214649aadbe239b1a19c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_24.asset using Guid(8062d12e480214649aadbe239b1a19c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dc6eee3c3500938eef820ef53275fc') in 0.015206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_29.asset
+  artifactKey: Guid(df22800fd69eab642a8091369e7fb9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_29.asset using Guid(df22800fd69eab642a8091369e7fb9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a3ecd9b802d10a380b0b180bb45773') in 0.015483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilemap/Textures-16_31.asset
+  artifactKey: Guid(fd0a70d9477ac52409ac4a4ebfcb5228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_31.asset using Guid(fd0a70d9477ac52409ac4a4ebfcb5228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f652563f8c27dfb6864b66df92ed683') in 0.015940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/Textures-16_32.asset
+  artifactKey: Guid(4b3d9421c6972b349b35f68dbde5467b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_32.asset using Guid(4b3d9421c6972b349b35f68dbde5467b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86861f46320d1d1fe45cc674e57db75a') in 0.013364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/Textures-16_41.asset
+  artifactKey: Guid(0205714be6863434f98110d6ef6b21df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_41.asset using Guid(0205714be6863434f98110d6ef6b21df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d2679ddff71f5fd99273bd228b3dc6') in 0.015672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/Textures-16_33.asset
+  artifactKey: Guid(22d14fdc028ca5f41a6141cdb59e96b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_33.asset using Guid(22d14fdc028ca5f41a6141cdb59e96b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b5a3e16469c67df9ae301fc62486ba') in 0.014082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilemap/Textures-16_40.asset
+  artifactKey: Guid(d3f08dde489655347a371ecf886d3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_40.asset using Guid(d3f08dde489655347a371ecf886d3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb357fa54a4e67305e85de1d6b5176e8') in 0.015008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/Textures-16_27.asset
+  artifactKey: Guid(f9b8c5bcc79fa39478894a51191d0127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_27.asset using Guid(f9b8c5bcc79fa39478894a51191d0127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a536bd9b9f4f823ef11b28a0bdfc7990') in 0.014696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilemap/Textures-16_26.asset
+  artifactKey: Guid(3622c3cc57bbc3a45982010fd6c2f41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_26.asset using Guid(3622c3cc57bbc3a45982010fd6c2f41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3fbbb83f707548511d6e23354adf2f') in 0.013418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.179094 seconds.
+  path: Assets/Tilemap/Textures-16_42.asset
+  artifactKey: Guid(67eb86dd316e64f409316861435f992e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_42.asset using Guid(67eb86dd316e64f409316861435f992e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be04e0941f804ee80f84753e158599d6') in 0.012333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilemap/Textures-16_45.asset
+  artifactKey: Guid(f9575e11e3e9b9c42a474cd3c07eddf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_45.asset using Guid(f9575e11e3e9b9c42a474cd3c07eddf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bf655ab629265f4d2db438c43adaea') in 0.015934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/Textures-16_44.asset
+  artifactKey: Guid(439cae254e8bcb84986cc233513ca5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_44.asset using Guid(439cae254e8bcb84986cc233513ca5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3887de8c6b2633c157614fb3cfa081d7') in 0.015000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_52.asset
+  artifactKey: Guid(f60c069d36a6ddb4b8dd6a6dd4716cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_52.asset using Guid(f60c069d36a6ddb4b8dd6a6dd4716cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea9631fc0ecdb061b569c8025abbf59') in 0.015310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/Textures-16_60.asset
+  artifactKey: Guid(52c0b9e435971a14583e2156b0de346f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_60.asset using Guid(52c0b9e435971a14583e2156b0de346f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41363ac1ee00620a5ea65d3ba6989d14') in 0.014069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010079 seconds.
+  path: Assets/Tilemap/Textures-16_56.asset
+  artifactKey: Guid(0b64fd5ce44454a4cac2b8a6e3763adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_56.asset using Guid(0b64fd5ce44454a4cac2b8a6e3763adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdb55505ee49635fb83a421c627738a') in 0.012833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_51.asset
+  artifactKey: Guid(0fd1c35afb4568742be8e02328b864f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_51.asset using Guid(0fd1c35afb4568742be8e02328b864f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7719b5160cf74b9fd537412713e806') in 0.014937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_64.asset
+  artifactKey: Guid(4ca6c1fa6db67004a8d632e5a9fa8239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_64.asset using Guid(4ca6c1fa6db67004a8d632e5a9fa8239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69aae82f6ff9bf324c1b7607176cfe9') in 0.013095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Tilemap/Textures-16_50.asset
+  artifactKey: Guid(fe19e51003035c54ebfa7c4392ea7c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_50.asset using Guid(fe19e51003035c54ebfa7c4392ea7c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4522c56b2c272500844b9ceece9b03f9') in 0.015016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_55.asset
+  artifactKey: Guid(5acc9bb5e42aaa7428d6da0484b6e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_55.asset using Guid(5acc9bb5e42aaa7428d6da0484b6e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4915d370b160697438da157453a02bc') in 0.013841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/Textures-16_65.asset
+  artifactKey: Guid(c60170fc219d5ef49a4d30df5aed63f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_65.asset using Guid(c60170fc219d5ef49a4d30df5aed63f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b0a7b2b7f2c45e02c4a19a691623fa') in 0.015070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilemap/Textures-16_49.asset
+  artifactKey: Guid(ab57e25a103185a45bc8e007af70abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_49.asset using Guid(ab57e25a103185a45bc8e007af70abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a165b4aa4083275e3f216367124560b5') in 0.014104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/Textures-16_54.asset
+  artifactKey: Guid(2d2a95a14c64af7418ebe9251da9484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_54.asset using Guid(2d2a95a14c64af7418ebe9251da9484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31c5a0aa68af6018e2160cc6990e3c2') in 0.014744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.092652 seconds.
+  path: Assets/Tilemap/Textures-16_66.asset
+  artifactKey: Guid(911adc765571fa54daede7629f123c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_66.asset using Guid(911adc765571fa54daede7629f123c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16bb73c55494beee3a93dd13996d2b4') in 0.014843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_71.asset
+  artifactKey: Guid(7c5696612b9b69f4e8643c358e2a1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_71.asset using Guid(7c5696612b9b69f4e8643c358e2a1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ac51cf381856aa9e87515bfc294ab0') in 0.014551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_69.asset
+  artifactKey: Guid(76d22f8520a6b8b4f8f63a868f9dd093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_69.asset using Guid(76d22f8520a6b8b4f8f63a868f9dd093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deee1aa33bd5b63d7e06f4b00b9fbd16') in 0.013114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/Textures-16_70.asset
+  artifactKey: Guid(564d8913042dbbe4c8abe3bcfad05410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_70.asset using Guid(564d8913042dbbe4c8abe3bcfad05410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0722fdcc99d77e0524680daae4b42d4f') in 0.012272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_83.asset
+  artifactKey: Guid(fa264a338add97940b4542340d66b770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_83.asset using Guid(fa264a338add97940b4542340d66b770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c74be3aeef26ae94e71ee3e3b24da9') in 0.013314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/Textures-16_89.asset
+  artifactKey: Guid(3893da602c73ba348a7f1730f6f3044b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_89.asset using Guid(3893da602c73ba348a7f1730f6f3044b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0803d71658c2e8075bf87047804f4a12') in 0.013584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/Textures-16_87.asset
+  artifactKey: Guid(6a07b551e1890624f94c0220d89a28e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_87.asset using Guid(6a07b551e1890624f94c0220d89a28e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6bba9e20750135690729f0fad41f00') in 0.015100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tilemap/Textures-16_88.asset
+  artifactKey: Guid(13e9134008b7f0d4999d8064f23f0ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_88.asset using Guid(13e9134008b7f0d4999d8064f23f0ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9abbf19a1e5af5d4849b492a5734d7') in 0.013236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_72.asset
+  artifactKey: Guid(fd91d1c1f8fb3c14b9314d124c9d5623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_72.asset using Guid(fd91d1c1f8fb3c14b9314d124c9d5623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b910f028e1c37d5e8d7439cdefaebabd') in 0.013028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tilemap/Textures-16_74.asset
+  artifactKey: Guid(562776e185d2dd945b19dc9d8b4e09c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_74.asset using Guid(562776e185d2dd945b19dc9d8b4e09c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e434ac36932c07880ce9e33ef6a435') in 0.013082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_80.asset
+  artifactKey: Guid(8683b6594c9382e4483a23ec17d01904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_80.asset using Guid(8683b6594c9382e4483a23ec17d01904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8aa625f72ef2d2b087656612f50e178') in 0.012659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_84.asset
+  artifactKey: Guid(4ba786282be2d8a48982ce4664796fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_84.asset using Guid(4ba786282be2d8a48982ce4664796fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9647ae554db1b84fae600c166ba538db') in 0.012867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.139905 seconds.
+  path: Assets/Tilemap/Textures-16_90.asset
+  artifactKey: Guid(590b3dbc17d37d449948f07d66f44cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_90.asset using Guid(590b3dbc17d37d449948f07d66f44cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9421f9786e936d81d6875d54911feb') in 0.013463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_95.asset
+  artifactKey: Guid(f3c1e295826e21645ac11c812fb1604f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_95.asset using Guid(f3c1e295826e21645ac11c812fb1604f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16cb04deefa1f094ffa46859639e0d9') in 0.013327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_93.asset
+  artifactKey: Guid(cd4f286448338e34f9dfbac3dc594849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_93.asset using Guid(cd4f286448338e34f9dfbac3dc594849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4131fb210a3a17e8084a6887cc25512b') in 0.013389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilemap/Textures-16_98.asset
+  artifactKey: Guid(5a82073f9ac0f2a49a6dfa115409458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_98.asset using Guid(5a82073f9ac0f2a49a6dfa115409458d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef482ace7d91dfc43ce9ad4dd319f21') in 0.013527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilemap/Textures-16_106.asset
+  artifactKey: Guid(819114d23f496a444b5ca7218f41f488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_106.asset using Guid(819114d23f496a444b5ca7218f41f488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fae067899e70ea4eeb976830cda20c') in 0.013076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tilemap/Textures-16_99.asset
+  artifactKey: Guid(6accca91683b04945916bad9b4746c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_99.asset using Guid(6accca91683b04945916bad9b4746c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6f2af4c4f699206ed6dd923bd21ef3') in 0.013497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/Textures-16_111.asset
+  artifactKey: Guid(8908f56f764d75c48b3ffa46a884c8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_111.asset using Guid(8908f56f764d75c48b3ffa46a884c8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ee249d594d8952de442886382805c8') in 0.012721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilemap/Textures-16_102.asset
+  artifactKey: Guid(a292976b674e17d49bc90cb59c0f916f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_102.asset using Guid(a292976b674e17d49bc90cb59c0f916f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8b359890078cda0279d6b87312e30f') in 0.013139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/Textures-16_112.asset
+  artifactKey: Guid(9ac2eba777227e044ab3db4101b78f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_112.asset using Guid(9ac2eba777227e044ab3db4101b78f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ede17ac96157a282aa0c1bdab9b84fa') in 0.014093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_104.asset
+  artifactKey: Guid(a7ef0fd7aa51f0a44be73237be3320e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_104.asset using Guid(a7ef0fd7aa51f0a44be73237be3320e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bec1d02cc08b4917a01c1bb540566f') in 0.014727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_113.asset
+  artifactKey: Guid(038edfa67b4bfac44ba4f1008a9ae268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_113.asset using Guid(038edfa67b4bfac44ba4f1008a9ae268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a273dba6d97500fdd18732a42e6d747') in 0.015118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Tilemap/Textures-16_110.asset
+  artifactKey: Guid(0aef955a706a7cf469fbec50cb48e2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_110.asset using Guid(0aef955a706a7cf469fbec50cb48e2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdb7bdbb750daacf2937e1c710d537e') in 0.015057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.102491 seconds.
+  path: Assets/Tilemap/Textures-16_114.asset
+  artifactKey: Guid(d356b9db7bbad33418cc22c86040562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_114.asset using Guid(d356b9db7bbad33418cc22c86040562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45fdac7cb79f4702d72f2f041d9c0ee') in 0.013246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilemap/Textures-16_116.asset
+  artifactKey: Guid(097ddee676e1f94449bb7f047d025271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_116.asset using Guid(097ddee676e1f94449bb7f047d025271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ed0fbfaf5a0eba38338bbbffd13ca6') in 0.013350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_119.asset
+  artifactKey: Guid(346930e3621c4fb41a8732bded9252ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_119.asset using Guid(346930e3621c4fb41a8732bded9252ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6412265b88dc4c2b6fb9bfa8589f84') in 0.014177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Tilemap/Textures-16_120.asset
+  artifactKey: Guid(de57b7b8ed6185c4b9acae1e14ab2f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_120.asset using Guid(de57b7b8ed6185c4b9acae1e14ab2f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa5bfe019c52f7d54048b44d5058210') in 0.015219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_125.asset
+  artifactKey: Guid(2187bc38c3fe628448a22662909801ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_125.asset using Guid(2187bc38c3fe628448a22662909801ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d7910dbfe45d854adbb2a2f0922de1') in 0.012182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_128.asset
+  artifactKey: Guid(d2c9f63f1fd385b48a6bf938ac2568f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_128.asset using Guid(d2c9f63f1fd385b48a6bf938ac2568f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53a61bd0b514e4e8c515448f8853356') in 0.012612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_138.asset
+  artifactKey: Guid(e516dd619eff7f344b46b3838814baa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_138.asset using Guid(e516dd619eff7f344b46b3838814baa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5818b949e5e6769d1e56fe3b11820885') in 0.012518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_136.asset
+  artifactKey: Guid(663465514a5b64f44b33e9471437b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_136.asset using Guid(663465514a5b64f44b33e9471437b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25e753b5f4386d5efb02c44072862c9') in 0.012734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/Textures-16_133.asset
+  artifactKey: Guid(87bf8ff87689c5a4da8263c5e2c303fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_133.asset using Guid(87bf8ff87689c5a4da8263c5e2c303fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ffbe8a77d85111e4865e5e876231da') in 0.014038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/Textures-16_137.asset
+  artifactKey: Guid(737383c6b7772ee4993eeb0e8e991eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_137.asset using Guid(737383c6b7772ee4993eeb0e8e991eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ef92dc7479b5bc065e693af1c75be1') in 0.014014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tilemap/Textures-16_141.asset
+  artifactKey: Guid(98128992db882c044aa8db430302f12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_141.asset using Guid(98128992db882c044aa8db430302f12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e78afbf9d256e86c3af7fce7819c4ab') in 0.013533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/Textures-16_143.asset
+  artifactKey: Guid(94b75d93cb850814e863717727dafa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_143.asset using Guid(94b75d93cb850814e863717727dafa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeed573929cbbc942966a0d209ea82e7') in 0.013045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_131.asset
+  artifactKey: Guid(64ff47da13bc71746bb24fa279f07f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_131.asset using Guid(64ff47da13bc71746bb24fa279f07f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcb154e913a581a5b0b0dfd267f9efc') in 0.013135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_124.asset
+  artifactKey: Guid(adae6bf93ef675c47a21fca9aee2d327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_124.asset using Guid(adae6bf93ef675c47a21fca9aee2d327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd62c448044d3fe55653fc2a27a5b7f') in 0.013983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/Textures-16_129.asset
+  artifactKey: Guid(e7722bb8e7a19e5419c2e47dfea9e964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_129.asset using Guid(e7722bb8e7a19e5419c2e47dfea9e964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73a6a6025f7fe26e79ac4daaebab261') in 0.014243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.833271 seconds.
+  path: Assets/Tilemap/Textures-16_144.asset
+  artifactKey: Guid(8ebd44b27cb2a5d408f2a5eb8ee0a361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_144.asset using Guid(8ebd44b27cb2a5d408f2a5eb8ee0a361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febeb4416a1c96d815fa30daed754da1') in 0.013649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_147.asset
+  artifactKey: Guid(7e25f2653cf82ce48bde7523f35bbb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_147.asset using Guid(7e25f2653cf82ce48bde7523f35bbb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cf9e37b6d665d9dcd197127ba2d77a') in 0.013588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/Textures-16_154.asset
+  artifactKey: Guid(ef96a545636737b48bd31a4f6ee80502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_154.asset using Guid(ef96a545636737b48bd31a4f6ee80502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1c78aed1f33a0e1c4da482fcd95bb1') in 0.012553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilemap/Textures-16_160.asset
+  artifactKey: Guid(c09328ca885901e4fbf186a119b6c410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_160.asset using Guid(c09328ca885901e4fbf186a119b6c410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bab10e9bd03d865d5b262903eb9016') in 0.013904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_178.asset
+  artifactKey: Guid(70587df1f72222b498613f5cfe399a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_178.asset using Guid(70587df1f72222b498613f5cfe399a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b0607d62dd69025ae6633ee792815b') in 0.012227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Textures-16_164.asset
+  artifactKey: Guid(043be3705fc99bb4b97f6a7244b7cdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_164.asset using Guid(043be3705fc99bb4b97f6a7244b7cdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9911d5d529a0be73141776631304cd') in 0.013215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_189.asset
+  artifactKey: Guid(7fc07042d011b6a418119f1db9d4fbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_189.asset using Guid(7fc07042d011b6a418119f1db9d4fbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64250758e62efbd1d185660a8f270e75') in 0.013749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilemap/Textures-16_206.asset
+  artifactKey: Guid(2503ee47265164843abe7ff05a6dd576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_206.asset using Guid(2503ee47265164843abe7ff05a6dd576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c50571153a6ba5f173e4b86426039e') in 0.015174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_209.asset
+  artifactKey: Guid(f25cb15d1f6a70a4a8bf31a6e5d5fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_209.asset using Guid(f25cb15d1f6a70a4a8bf31a6e5d5fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622ebe76c0d83bd6813c10488145d6cf') in 0.011211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Textures-16_265.asset
+  artifactKey: Guid(5ecf01122dc72504abfa7f019e3224ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_265.asset using Guid(5ecf01122dc72504abfa7f019e3224ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b91b7f9b2bc4c3117097dbdc83099e') in 0.014367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_199.asset
+  artifactKey: Guid(d9b6d5a6f4e790142ba513346f213a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_199.asset using Guid(d9b6d5a6f4e790142ba513346f213a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8fb1244574f739bc90ebe5d8593c85') in 0.014428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tilemap/Textures-16_174.asset
+  artifactKey: Guid(d2cda6116e3f5344e833be8744787952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_174.asset using Guid(d2cda6116e3f5344e833be8744787952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2540da6c1888e70277f4e56d7f06742d') in 0.011972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/Textures-16_196.asset
+  artifactKey: Guid(1fc8d0aef919ab34bae560eadfd06447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_196.asset using Guid(1fc8d0aef919ab34bae560eadfd06447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5bf94c19259d9246a4d34d67c6fb59') in 0.015889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/Textures-16_268.asset
+  artifactKey: Guid(e3e8794d8be8f4744bfac1684b024ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_268.asset using Guid(e3e8794d8be8f4744bfac1684b024ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af1410ac31eb1cd0c0d2aaa980f239e') in 0.013208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_343.asset
+  artifactKey: Guid(1d8c8b7610e2dff4db89cddbb849bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_343.asset using Guid(1d8c8b7610e2dff4db89cddbb849bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425f01c9c9903bc03ba8ceb89acf8e77') in 0.014429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilemap/Textures-16_253.asset
+  artifactKey: Guid(ee071e351a93a38458c0fe606198eb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_253.asset using Guid(ee071e351a93a38458c0fe606198eb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bc15bef440f558c091a5fcd96ed272') in 0.014038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilemap/Textures-16_148.asset
+  artifactKey: Guid(5d6bca6d4c588fa41a8822869b0701e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_148.asset using Guid(5d6bca6d4c588fa41a8822869b0701e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7188efaddcafa8f8278a034269db4d') in 0.015239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilemap/Textures-16_366.asset
+  artifactKey: Guid(f95d26b5c0d1bcf42abe225b70654d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_366.asset using Guid(f95d26b5c0d1bcf42abe225b70654d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad98ca9a714d8fb88be5680b847e6304') in 0.013346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/Textures-16_320.asset
+  artifactKey: Guid(3e0fcbd5c8ab6564e802a9fff6f65b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_320.asset using Guid(3e0fcbd5c8ab6564e802a9fff6f65b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7941134a05a9fc6e62b7bb599b1a52') in 0.012672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilemap/Textures-16_383.asset
+  artifactKey: Guid(89c774897bc5e4145bf43e6c5bf323f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_383.asset using Guid(89c774897bc5e4145bf43e6c5bf323f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df78d83c5298551c52aaf0ff8fba76a2') in 0.013412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_386.asset
+  artifactKey: Guid(cb90b73c1c77e1b4d8b504d4901b48ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_386.asset using Guid(cb90b73c1c77e1b4d8b504d4901b48ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98521d384696fc12f42176be3ee8306') in 0.013791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/Textures-16_390.asset
+  artifactKey: Guid(51d01894ba3df194a8bc0592277e6ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_390.asset using Guid(51d01894ba3df194a8bc0592277e6ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0ed30772899eed524222cd90002830') in 0.012252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_396.asset
+  artifactKey: Guid(3a33f230fbc8edf41b46e60042952a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_396.asset using Guid(3a33f230fbc8edf41b46e60042952a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e722a169b0cb373a9a52b389c8be225') in 0.014156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tilemap/Textures-16_254.asset
+  artifactKey: Guid(3c48ca4534e5b75449718bac5f801a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_254.asset using Guid(3c48ca4534e5b75449718bac5f801a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465abe51bbb7ee7c75824514ef393bbe') in 0.014923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Textures-16_181.asset
+  artifactKey: Guid(c00f0668e2bba0e45b6f791d42a0c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_181.asset using Guid(c00f0668e2bba0e45b6f791d42a0c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae6c4ba0c1b8f9e00c83ffa256c745e') in 0.012917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_411.asset
+  artifactKey: Guid(677077f76ec2c8f4a8d1ebfa6b26b546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_411.asset using Guid(677077f76ec2c8f4a8d1ebfa6b26b546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a90dc601091d7cc99ca2e5f8f79f97') in 0.015587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tilemap/Textures-16_259.asset
+  artifactKey: Guid(6f6b56fdda9df054c89c48bfea670992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_259.asset using Guid(6f6b56fdda9df054c89c48bfea670992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2796f6c5481ff19305aea6b360797f09') in 0.014173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_303.asset
+  artifactKey: Guid(ff4004e83232e094a9cdac0fb1ed943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_303.asset using Guid(ff4004e83232e094a9cdac0fb1ed943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01260acb8eae4c2d0e02aa73ad05b5e5') in 0.021218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilemap/Textures-16_309.asset
+  artifactKey: Guid(695cea2465795714d868fcbe531b888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_309.asset using Guid(695cea2465795714d868fcbe531b888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2352d6eb71fe6901fb3a080cc6902fcd') in 0.013218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilemap/Textures-16_313.asset
+  artifactKey: Guid(e3c90828255d52c4fadcf3afda8f4ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_313.asset using Guid(e3c90828255d52c4fadcf3afda8f4ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1374f64d8f6a6e491a89d2405929ec9') in 0.012074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_423.asset
+  artifactKey: Guid(838671dffee03ac4785c903b7c3240c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_423.asset using Guid(838671dffee03ac4785c903b7c3240c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e76f82800c614f244e9744b09a2eab') in 0.011387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Textures-16_339.asset
+  artifactKey: Guid(9519d233164ada540a550193582fba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_339.asset using Guid(9519d233164ada540a550193582fba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61397f4149b8f8314a89f21b011479f') in 0.012754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Tilemap/Textures-16_385.asset
+  artifactKey: Guid(e4bf48e65f7bc0641a0587f2e6be6c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_385.asset using Guid(e4bf48e65f7bc0641a0587f2e6be6c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a7f893ece21186c3685297247084ae') in 0.013801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/Textures-16_408.asset
+  artifactKey: Guid(24c14036290cab345892b6ef8c934706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_408.asset using Guid(24c14036290cab345892b6ef8c934706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd149760542beb9eed96e0e61c5ecdb') in 0.014718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/Textures-16_183.asset
+  artifactKey: Guid(2d2accfba845e524daacf66b4a2808b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_183.asset using Guid(2d2accfba845e524daacf66b4a2808b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdd122c88e7a7dabdf3f69ebc2fe92e') in 0.018719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tilemap/Textures-16_355.asset
+  artifactKey: Guid(8cf6a157352133f41be4aa80dfad06cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_355.asset using Guid(8cf6a157352133f41be4aa80dfad06cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a33de9fc92abd1e53e52137070b257') in 0.018486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilemap/Textures-16_350.asset
+  artifactKey: Guid(d7f7c9769e1ffe241a424ebec9aadfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_350.asset using Guid(d7f7c9769e1ffe241a424ebec9aadfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a5eafdf296ef9b88e1091a7fb31db5') in 0.018757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/Textures-16_406.asset
+  artifactKey: Guid(718ea682d2e99da4faf57df11a35b5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_406.asset using Guid(718ea682d2e99da4faf57df11a35b5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb06f001af2dc07c3a7d05532dbc7fbd') in 0.016821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Textures-16_364.asset
+  artifactKey: Guid(d14bda6db3d9c3547b9c6cf683d3e341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_364.asset using Guid(d14bda6db3d9c3547b9c6cf683d3e341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988ea3ad893f69ee2eca57cf1f4b3dde') in 0.014710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_369.asset
+  artifactKey: Guid(30dd3eec3ea34c24595b6cd3cc1aecff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_369.asset using Guid(30dd3eec3ea34c24595b6cd3cc1aecff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d93a436a78cc56f1184f7e3cd6734fc') in 0.018547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_305.asset
+  artifactKey: Guid(46d82d98d1d275d4290a585a40232f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_305.asset using Guid(46d82d98d1d275d4290a585a40232f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f0007e1b64ea1b0d6e88d6c3f4891e') in 0.019736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_381.asset
+  artifactKey: Guid(21503cc057f482f4397b8d3a9c1bf121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_381.asset using Guid(21503cc057f482f4397b8d3a9c1bf121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a482f19181373ef9db8de405fd4530dc') in 0.019136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/Textures-16_173.asset
+  artifactKey: Guid(9cd0dec8cd74bf5469242e98feea404a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_173.asset using Guid(9cd0dec8cd74bf5469242e98feea404a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16986bfaa08c3023e9e94820ee34a85') in 0.018765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Tilemap/Textures-16_345.asset
+  artifactKey: Guid(a83f84ff4d298e94a853eedfc942bb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_345.asset using Guid(a83f84ff4d298e94a853eedfc942bb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e4186c0bd08c9c8597db62a44d08cd') in 0.016329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_255.asset
+  artifactKey: Guid(e0b958d1993540f498d7e47d340911c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_255.asset using Guid(e0b958d1993540f498d7e47d340911c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3934865608555a18547fc71c06b2d2') in 0.015325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilemap/Textures-16_307.asset
+  artifactKey: Guid(7fcfbe2b3e48b674eb588ff78e3f8ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_307.asset using Guid(7fcfbe2b3e48b674eb588ff78e3f8ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961b2b5bd6f7e25fcc5cdae566bf2f53') in 0.016535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/Textures-16_358.asset
+  artifactKey: Guid(1f40659f0167ede4990d0f117c2816d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_358.asset using Guid(1f40659f0167ede4990d0f117c2816d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2054f28083deafac1931f89261cd158') in 0.017550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Textures-16_412.asset
+  artifactKey: Guid(fe6f0149a6efd5944a7efeddeb2375a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_412.asset using Guid(fe6f0149a6efd5944a7efeddeb2375a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f77662f03c8c2c2495f64ec06815644') in 0.015922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tilemap/Textures-16_317.asset
+  artifactKey: Guid(127b88998b3efcd4697c59eb7c82b274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_317.asset using Guid(127b88998b3efcd4697c59eb7c82b274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f803fcb6ab7d080472badcb494de837') in 0.015658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilemap/Textures-16_321.asset
+  artifactKey: Guid(9786e4a82989d7244a6524eae49afe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_321.asset using Guid(9786e4a82989d7244a6524eae49afe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497867f100f659199b07a7c67eb5311a') in 0.016273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/Textures-16_163.asset
+  artifactKey: Guid(69597466b83ebf54dac06c0716b227a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_163.asset using Guid(69597466b83ebf54dac06c0716b227a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb61addcf4d2135edd9987b6153820db') in 0.016180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Textures-16_310.asset
+  artifactKey: Guid(65127f993c5782e4f8b3c251d7b3b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_310.asset using Guid(65127f993c5782e4f8b3c251d7b3b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2855183ddd1e6314efc35f12994dd280') in 0.018493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Textures-16_204.asset
+  artifactKey: Guid(0739a613a40578c47af86bdd23fed150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_204.asset using Guid(0739a613a40578c47af86bdd23fed150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672ad2ae667114d4c8923f6ab146d9f4') in 0.016608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Tilemap/Textures-16_263.asset
+  artifactKey: Guid(dbb6a92828be689469cb600582fa976f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_263.asset using Guid(dbb6a92828be689469cb600582fa976f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b796438535b98b63619f878914f4cf') in 0.016414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_384.asset
+  artifactKey: Guid(1bb2420b23091444b9f215e7b652e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_384.asset using Guid(1bb2420b23091444b9f215e7b652e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1b50a4340fdebc2bf019ebb5d74e26') in 0.018314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/Textures-16_389.asset
+  artifactKey: Guid(4e8a53dd0a886774c9bd657b90879ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_389.asset using Guid(4e8a53dd0a886774c9bd657b90879ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de4330111741ad8fbace1a1bb746d7b') in 0.016238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilemap/Textures-16_427.asset
+  artifactKey: Guid(bc22713b1951d2a468d8f9d1221d6968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_427.asset using Guid(bc22713b1951d2a468d8f9d1221d6968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061c65806dc4ed51f2cfb6641bc6818a') in 0.016887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilemap/Textures-16_176.asset
+  artifactKey: Guid(f23081bc437e49c49a09454820895691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_176.asset using Guid(f23081bc437e49c49a09454820895691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e513dfa69863232434d6dd4b52b7bce1') in 0.016579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_269.asset
+  artifactKey: Guid(1f9a363d5d4f1584ea84a4bbfa1ecad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_269.asset using Guid(1f9a363d5d4f1584ea84a4bbfa1ecad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3497b43f96c9cf399dd4d48e896478') in 0.014172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_422.asset
+  artifactKey: Guid(ba1deacd9503791488f41dd6dffc4133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_422.asset using Guid(ba1deacd9503791488f41dd6dffc4133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0efe63a0410e377a90dac82bff116e') in 0.015253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilemap/Textures-16_405.asset
+  artifactKey: Guid(d7343c0a2e1d792448f364b4147a9218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_405.asset using Guid(d7343c0a2e1d792448f364b4147a9218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cac21e582a39e8b88c864161b8affa') in 0.015503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tilemap/Textures-16_348.asset
+  artifactKey: Guid(f122805e211761041b71112074e42c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_348.asset using Guid(f122805e211761041b71112074e42c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd64ef78cd71089272c2a15c60003be1') in 0.016330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilemap/Textures-16_374.asset
+  artifactKey: Guid(7637ecb323a56e04aaf5f4726e6389eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_374.asset using Guid(7637ecb323a56e04aaf5f4726e6389eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38df8a604ceb7bfd105aec3a3e9e4bf5') in 0.012582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_327.asset
+  artifactKey: Guid(3f465781c554bf44ca9b7158ea57c999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_327.asset using Guid(3f465781c554bf44ca9b7158ea57c999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623aef351d0042efa810de6dacbe6428') in 0.015144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilemap/Textures-16_328.asset
+  artifactKey: Guid(8c430a44cb5b77d4da9da11900263051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_328.asset using Guid(8c430a44cb5b77d4da9da11900263051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f6753aaa59ff11023ee096cff16a61') in 0.014302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/Textures-16_191.asset
+  artifactKey: Guid(41658cd8711ed6f4990b6f86d7f57bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_191.asset using Guid(41658cd8711ed6f4990b6f86d7f57bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c9e017fbf521c38eeff2287ddacae0') in 0.015370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_337.asset
+  artifactKey: Guid(817b06c4efd3bce4da1ae33d6be7e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_337.asset using Guid(817b06c4efd3bce4da1ae33d6be7e2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357897d798be172c93aa7ff82614890e') in 0.015695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tilemap/Textures-16_325.asset
+  artifactKey: Guid(1d45dec535a4f224babfc2c9a0f8eb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_325.asset using Guid(1d45dec535a4f224babfc2c9a0f8eb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb553921306611dab0c459b789d5ad7') in 0.014578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_304.asset
+  artifactKey: Guid(e3d61734b063d564d8b80bb2920cff8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_304.asset using Guid(e3d61734b063d564d8b80bb2920cff8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7b062129f2291e8e08f628f1c100c6') in 0.015081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_195.asset
+  artifactKey: Guid(4d5991c1225743542accd29a460ad1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_195.asset using Guid(4d5991c1225743542accd29a460ad1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d4925fe62144cd2407aa681e277771') in 0.015967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Textures-16_246.asset
+  artifactKey: Guid(2fa36c2de3d2d9c4fa4ce22c1a3d5537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_246.asset using Guid(2fa36c2de3d2d9c4fa4ce22c1a3d5537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb17e61031917c0adf619f07bba58df') in 0.015030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tilemap/Textures-16_401.asset
+  artifactKey: Guid(53265f68b0af98842b0e924701884726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_401.asset using Guid(53265f68b0af98842b0e924701884726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4f62a0938b1ccb806c78a607a13e96') in 0.012734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/Textures-16_428.asset
+  artifactKey: Guid(47f350a60753f814b8d998c81a680950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_428.asset using Guid(47f350a60753f814b8d998c81a680950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e2fe4e6958655ecbe0351596413a77') in 0.015608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_417.asset
+  artifactKey: Guid(045817ab256eec949979d2f1da99c477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_417.asset using Guid(045817ab256eec949979d2f1da99c477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fea92317d93f9d728f880d50f37515') in 0.013864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilemap/Textures-16_421.asset
+  artifactKey: Guid(3b9d1258839f8874986f7649d68c30d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_421.asset using Guid(3b9d1258839f8874986f7649d68c30d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf7d32dce57c37ff5901052a0444459') in 0.014926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_419.asset
+  artifactKey: Guid(9a4a3e713a171cc47bba5c0ae037474d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_419.asset using Guid(9a4a3e713a171cc47bba5c0ae037474d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc87d3fb2c4479328d5b261002d810a0') in 0.014512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilemap/Textures-16_192.asset
+  artifactKey: Guid(0fff09a945e2ef445870d9590a1dddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_192.asset using Guid(0fff09a945e2ef445870d9590a1dddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c6f755c8fd1817540c94ddf23a998f') in 0.016914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/Textures-16_387.asset
+  artifactKey: Guid(b4f62f09794045e4a96b0e98faec8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_387.asset using Guid(b4f62f09794045e4a96b0e98faec8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a274eb0cf1a52b9fefd2aef88397ef') in 0.017878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tilemap/Textures-16_314.asset
+  artifactKey: Guid(150355ffc228f0545b3964904be83fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_314.asset using Guid(150355ffc228f0545b3964904be83fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e302ca554ad9ed1c6aad744990158f') in 0.014175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tilemap/Textures-16_306.asset
+  artifactKey: Guid(d2db75cca49dc6e4fa9bb8d5338717dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_306.asset using Guid(d2db75cca49dc6e4fa9bb8d5338717dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f43f1053772be4ef98dbded21317a91') in 0.016788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/Textures-16_398.asset
+  artifactKey: Guid(691f400ae64d7064c947a35b5b46bc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_398.asset using Guid(691f400ae64d7064c947a35b5b46bc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165412b69b2a510962ef7e7f99c04cc0') in 0.016299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tilemap/Textures-16_352.asset
+  artifactKey: Guid(adde87a62d4dc3d4b907c7a4b24d426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_352.asset using Guid(adde87a62d4dc3d4b907c7a4b24d426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f54aed82f43bbb644c415185e05b70') in 0.015343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/Textures-16_372.asset
+  artifactKey: Guid(ad0ca36d49106854da2eff0f56bfaf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_372.asset using Guid(ad0ca36d49106854da2eff0f56bfaf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c64a2be5c098e9081095e9726e59962') in 0.015559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_186.asset
+  artifactKey: Guid(a37580c1c19c5eb4e8660c6baaa323a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_186.asset using Guid(a37580c1c19c5eb4e8660c6baaa323a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab99f53c903a207836169cfb84f78a5') in 0.017471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_252.asset
+  artifactKey: Guid(44686a186881cc04c8a000d2eaf2bfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_252.asset using Guid(44686a186881cc04c8a000d2eaf2bfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27198f9aa5984c887db1821baa70294') in 0.017231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Tilemap/Textures-16_402.asset
+  artifactKey: Guid(c3eb7d60e5c590c4383c82cc605471d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_402.asset using Guid(c3eb7d60e5c590c4383c82cc605471d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1078c14d0722255d29e5d924a896c0') in 0.014949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_367.asset
+  artifactKey: Guid(c9a505e4db808834c9f22b2acdebcc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_367.asset using Guid(c9a505e4db808834c9f22b2acdebcc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f29938a0c0e761749db73b0a5428cab') in 0.014894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilemap/Textures-16_203.asset
+  artifactKey: Guid(64eb595c9ae381f46874902f2883b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_203.asset using Guid(64eb595c9ae381f46874902f2883b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92afadc39cdbbfeddc00acbd9345234') in 0.016172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/Textures-16_393.asset
+  artifactKey: Guid(e8d89eae8b797bf4bbd3f7e03bac52c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_393.asset using Guid(e8d89eae8b797bf4bbd3f7e03bac52c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ecec873771f4dcf3696d565fc398c3d') in 0.018691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/Textures-16_315.asset
+  artifactKey: Guid(8c1998900ac96a144aff8c87828be6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_315.asset using Guid(8c1998900ac96a144aff8c87828be6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e048e1d667e87c14d09d8ebd1b6f077') in 0.013126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilemap/Textures-16_392.asset
+  artifactKey: Guid(e71491e0655e06344b18fc623e16df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_392.asset using Guid(e71491e0655e06344b18fc623e16df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b6fc0ef1a1cf80f3501d783960b12f') in 0.017128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilemap/Textures-16_346.asset
+  artifactKey: Guid(855feb2fe06f4b04ba22cbe51c398326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_346.asset using Guid(855feb2fe06f4b04ba22cbe51c398326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f433e07717d135db8fb5905260d351') in 0.016447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Tilemap/Textures-16_359.asset
+  artifactKey: Guid(6ad8dd0024fc6d040a3b6843cdebf377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_359.asset using Guid(6ad8dd0024fc6d040a3b6843cdebf377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e771f90ad261fbaba8f945e5cbd54307') in 0.016112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_378.asset
+  artifactKey: Guid(aec851b01b25adb4b882605362887283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_378.asset using Guid(aec851b01b25adb4b882605362887283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997b4e38e7655f7670f741e65ab6ee6c') in 0.015583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/Textures-16_168.asset
+  artifactKey: Guid(445e4ae58ea03e94b9562aa5dc508519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_168.asset using Guid(445e4ae58ea03e94b9562aa5dc508519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c223c1299d88d13acee3d9fe648f42d0') in 0.015519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilemap/Textures-16_410.asset
+  artifactKey: Guid(b3a335004e0c5c0498bd43109c2894c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_410.asset using Guid(b3a335004e0c5c0498bd43109c2894c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87e6af98dad31c0901e5e2ad611995d') in 0.015370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_416.asset
+  artifactKey: Guid(03360cfcb51cd564292227d2525ec622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_416.asset using Guid(03360cfcb51cd564292227d2525ec622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7522c4803b603e4ba7e9cb15bc1e3eea') in 0.014134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/Textures-16_322.asset
+  artifactKey: Guid(53736076f27832f4cbafa25796a1d2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_322.asset using Guid(53736076f27832f4cbafa25796a1d2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f564ee740d505618a954daedaf124ef') in 0.015239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/Textures-16_375.asset
+  artifactKey: Guid(5a464dfd2018da2418088d0e435a47c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_375.asset using Guid(5a464dfd2018da2418088d0e435a47c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb443b7089f6b9a62abd1879d9b5b4d') in 0.016316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/Textures-16_151.asset
+  artifactKey: Guid(123cbf5f220520542a4106e8de021155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_151.asset using Guid(123cbf5f220520542a4106e8de021155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6bcc96804d5888b36ceead7bb17c53') in 0.016440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_414.asset
+  artifactKey: Guid(5ec764028decaed4ab00d1a385f12b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_414.asset using Guid(5ec764028decaed4ab00d1a385f12b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0ad76506f73fcbbe3cc991eb33ab5f') in 0.015937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/Textures-16_194.asset
+  artifactKey: Guid(161a38f31444a5f41bd71b4eb294767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_194.asset using Guid(161a38f31444a5f41bd71b4eb294767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5d94b2a211b0e5687b9d9f8bd8510a') in 0.017149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tilemap/Textures-16_266.asset
+  artifactKey: Guid(a5b3b1792178d334d8367cbc3ba080dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_266.asset using Guid(a5b3b1792178d334d8367cbc3ba080dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e943fa2e1fdada926dd6854597243780') in 0.016861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilemap/Textures-16_179.asset
+  artifactKey: Guid(e3f2d65a44d369c4297ef4daea405306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_179.asset using Guid(e3f2d65a44d369c4297ef4daea405306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc01a7d048d9c796febeb5b92bcc3a6') in 0.017285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/Textures-16_300.asset
+  artifactKey: Guid(b94db262c52839b4abc43b52f944de75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_300.asset using Guid(b94db262c52839b4abc43b52f944de75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7d73e3828d1fa8dc226ed1e33a8ed2') in 0.016327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/Textures-16_159.asset
+  artifactKey: Guid(602c70af05e904947a5e5e5e6601538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_159.asset using Guid(602c70af05e904947a5e5e5e6601538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2897a1d6b78fea1ce838567736580031') in 0.016024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tilemap/Textures-16_403.asset
+  artifactKey: Guid(1e401e83f3b1523458f78f722a5a09d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_403.asset using Guid(1e401e83f3b1523458f78f722a5a09d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daed10341c14d06543d6893186effbf2') in 0.017118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Tilemap/Textures-16_430.asset
+  artifactKey: Guid(695930f9cf87a4b498fe1e71eeaf39a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_430.asset using Guid(695930f9cf87a4b498fe1e71eeaf39a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579deccd039e29c88ec15838b6498244') in 0.017552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/Textures-16_319.asset
+  artifactKey: Guid(89902e986a918714491880502ac5388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_319.asset using Guid(89902e986a918714491880502ac5388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968bead0f9dc9e4aaac35d4691fc1794') in 0.017923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/Textures-16_267.asset
+  artifactKey: Guid(33ec1e0fc2efe5e4da981870079470c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_267.asset using Guid(33ec1e0fc2efe5e4da981870079470c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec74f5f8bd37001ad5344abe1550087') in 0.017153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/Textures-16_198.asset
+  artifactKey: Guid(839ab7c69f74d75408c4218ba4e2195f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Textures-16_198.asset using Guid(839ab7c69f74d75408c4218ba4e2195f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb2d163f9b83a0514ffb17ea149a473') in 0.014943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.032783 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/Background.png
+  artifactKey: Guid(33dccf83b7f7f294992c97ebe1990464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/Background.png using Guid(33dccf83b7f7f294992c97ebe1990464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164674a999573e1b7b4e75b94f141b4d') in 0.031109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/SlideDust.png
+  artifactKey: Guid(7fb51a422c4a36e40b71b06331a74b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/SlideDust.png using Guid(7fb51a422c4a36e40b71b06331a74b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197c4db268a5351cbf8a2510f416602b') in 0.039691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
