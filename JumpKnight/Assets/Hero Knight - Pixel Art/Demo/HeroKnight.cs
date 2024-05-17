@@ -163,13 +163,16 @@ public class HeroKnight : MonoBehaviour {
 
         else if (Input.GetKey("space") && m_grounded && !m_rolling)
         {
+            m_animator.SetTrigger("Block");
+            m_animator.SetBool("IdleBlock", true);
             chargeTime += Time.deltaTime;
-            chargeTime = Mathf.Clamp(chargeTime, 0f, maxChargeTime);
+            chargeTime = Mathf.Clamp(chargeTime, 0.5f, maxChargeTime);
             jumpForceModified = chargeTime * m_jumpForce;
         }
 
         else if (Input.GetKeyUp("space") && m_grounded && !m_rolling)
         {
+            m_animator.SetBool("IdleBlock", false);
             m_animator.SetTrigger("Jump");
             m_grounded = false;
             m_animator.SetBool("Grounded", m_grounded);
